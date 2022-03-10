@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    position:fixed; bottom:0;
+    flex: 1 0 180px;
+    display: flex 1;
+    flex-flow: column;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #00C5A3;
+    width: 100%;
+}
