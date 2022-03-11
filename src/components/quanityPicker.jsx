@@ -15,10 +15,10 @@ const QuanityPicker = () => {
 
     return (
         <div className="quanityPicker">
-            <button onClick={handleDecrease}>-</button>
+            <button className="btn btn-success btn-sm" onClick={handleDecrease}>-</button>
             <label>{quanity}</label>
-            <button onClick={handleIncrease} >+</button>
-            </div>
+            <button className="btn btn-success btn-sm" onClick={handleIncrease} >+</button>
+        </div>
     );
 }
 

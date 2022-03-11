@@ -8,6 +8,6 @@
     box-shadow: 5px 5px rgb(250, 250, 250);
 }
 
-.product label{
+.product .price, .product .total{
     display: block;
 }

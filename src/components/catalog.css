@@ -1,3 +1,9 @@
 .catalog h1{
     color: green;
+    background-color: tan;
+    margin-top: 6rem;
+}
+
+.catalog h2{
+    margin-top: 3rem;
 }
