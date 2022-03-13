@@ -6,4 +6,9 @@
 
 .catalog h2{
     margin-top: 3rem;
+    padding-bottom: 30px;
+}
+
+.catalog{
+    background-color: rgb(218, 214, 214);
 }

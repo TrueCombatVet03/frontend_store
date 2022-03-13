@@ -22,7 +22,8 @@ const Catalog = () => {
         <div className="catalog">
             <h1>This is the Milspec Catalog!</h1>
             <h2>We have {products.length} Products!!</h2>
-            {products.map((prod) => (<Product key={prod._id} title={prod.title} image={prod.image}/>))}
+
+            {products.map((prod) => (<Product key={prod._id} data={prod}/>))}
 
         </div>
     );

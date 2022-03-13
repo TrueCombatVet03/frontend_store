@@ -5,7 +5,5 @@
     display: flex 1;
     flex-flow: column;
     padding: 5px 5px;
-    border-radius: 5px;
-    border: 1px solid #00C5A3;
     width: 100%;
 }

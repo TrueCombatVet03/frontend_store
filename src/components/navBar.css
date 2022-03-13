@@ -1,11 +1,4 @@
-.navBar h2{
-    color: red;
+.navbar-brand{
+    color:rgb(11, 39, 2);
 }
 
-.nav-link a{
-    color: white;
-}
-
-.navbar.navbar-expand-lg{
-    Color: red
-}
