@@ -20,7 +20,17 @@ const Catalog = () => {
 
     return(
         <div className="catalog">
-            <h1>This is the Milspec Catalog!</h1>
+            <div className="banner">
+            
+                <div className="col-md-4 social-col">
+			    <a href=""
+			    ><img
+				className="img-responsive rounded mx-auto d-block"
+				src="images/banner4.jpg"
+				alt=""
+			    /></a>
+                </div>
+            </div>
             <h2>We have {products.length} Products!!</h2>
 
             {products.map((prod) => (<Product key={prod._id} data={prod}/>))}

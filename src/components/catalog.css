@@ -12,3 +12,16 @@
 .catalog{
     background-color: rgb(218, 214, 214);
 }
+
+
+
+.banner img{
+    background-size: 500px;
+    width: 2000px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.product{
+    background-color: rgb(178, 184, 182);
+}
