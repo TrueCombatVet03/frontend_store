@@ -1,0 +1,67 @@
+h3{
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.admin {
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    background-color: #fafafa;
+    min-height: 79vh;
+}
+
+
+.my-form{
+    display: flex;
+}
+
+.my-control{
+  display: flex;
+}
+
+.my-control2{
+  display: flex;
+  margin-bottom: 13px;
+  margin-top: 4rem;
+}
+
+.admin section {
+    flex: 1;
+  }
+  
+  .admin .form {
+    border: 1px solid #eee;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 50px;
+  }
+  
+  .admin h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin .my-control {
+    margin-bottom: 13px;
+  }
+  
+  .admin .my-control label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 7px;
+  }
+
+  .admin .my-control2 label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 7px;
+    
+  }
+  
+  .admin .my-control input {
+    width: 230px;
+  }
+  

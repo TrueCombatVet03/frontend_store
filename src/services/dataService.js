@@ -55,6 +55,14 @@ class DataService{
     getCatalog(){
         return Catalog;
     }
+
+    saveProduct(prod){
+        console.log("Sending prod to server,,,,,,,NOT");
+    }
+
+    saveCoupon(prod){
+        console.log("Sending Coupon discount");
+    }
 }
 
 export default DataService;
