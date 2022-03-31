@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+
+h4{
+    font-family: 'EB Garamond', serif;
+}
+
 img{
     padding-top: 10px;
     width: 100%;
@@ -10,4 +17,15 @@ img{
 
 .home-page h4{
     padding-bottom: 3rem;
+}
+
+p{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+
+li{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    
 }

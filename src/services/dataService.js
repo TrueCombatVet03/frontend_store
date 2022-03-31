@@ -1,7 +1,7 @@
 var Catalog = [
     {
         _id: "abcdefgh",
-        title:"Shirt",
+        title:"U.S Army",
         price: 19.99,
         stock: 15,
         category: "Clothing",
@@ -9,7 +9,7 @@ var Catalog = [
     },
     {
         _id: "abcdeefgh",
-        title:"Shirt",
+        title:"Infidel",
         price: 18.99,
         stock: 14,
         category: "Clothing",
@@ -17,7 +17,7 @@ var Catalog = [
     },
     {
         _id: "abcderrfgh",
-        title:"Shirt",
+        title:"Veteran",
         price: 15.99,
         stock: 12,
         category: "Clothing",
@@ -25,7 +25,7 @@ var Catalog = [
     },
     {
         _id: "abcdettfgh",
-        title:"Shirt",
+        title:"2ID",
         price: 17.99,
         stock: 16,
         category: "Clothing",
@@ -33,7 +33,7 @@ var Catalog = [
     },
     {
         _id: "abcdeyyfgh",
-        title:"Shirt",
+        title:"Seal",
         price: 19.99,
         stock: 10,
         category: "Clothing",
@@ -41,7 +41,7 @@ var Catalog = [
     },
     {
         _id: "abcdeuufgh",
-        title:"Shirt",
+        title:"DD-214",
         price: 19.99,
         stock: 10,
         category: "Clothing",

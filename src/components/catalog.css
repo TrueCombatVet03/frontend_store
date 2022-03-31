@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+
+
+
+
+
 .catalog h1{
     color: green;
     background-color: tan;
@@ -6,7 +13,8 @@
 
 .catalog h2{
     margin-top: 3rem;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    font-family: 'EB Garamond', serif;
 }
 
 .catalog{
@@ -23,5 +31,12 @@
 }
 
 .product{
-    background-color: rgb(178, 184, 182);
+    background-color: rgb(248, 250, 249);
+    width: 20%;
+    height: 400px;
+}
+
+.product h2{
+    padding-bottom: 5px;
+    margin-top: 2px;
 }

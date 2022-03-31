@@ -1,9 +1,9 @@
-.cart-page{
+.body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    height: 100vh;
     display: flex;
-    margin: 2rem;
-    display: grid;
-    padding-top: 10px;
-    
 }
 
 .cart-page h1{
@@ -13,3 +13,44 @@
 .cart-page h3{
     padding-bottom: 4rem;
 }
+
+img{
+    width: 15%;
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.prod-cart{
+    width: 20%;
+    height: 95%;
+    background-color: #e4e1e1;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+    
+    
+}
+
+.prod-info{
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: ‘Open Sans’;
+    font-weight: 800;
+    color: #202020;
+}
+
+.product .price{
+    color:red
+    
+}
+
+.button{
+    padding-left: 10px;
+}
+
