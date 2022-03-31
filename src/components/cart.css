@@ -1,0 +1,15 @@
+.cart-page{
+    display: flex;
+    margin: 2rem;
+    display: grid;
+    padding-top: 10px;
+    
+}
+
+.cart-page h1{
+    padding-bottom: 2rem;
+}
+
+.cart-page h3{
+    padding-bottom: 4rem;
+}
