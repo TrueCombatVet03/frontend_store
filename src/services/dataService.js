@@ -1,3 +1,10 @@
+import axios from "axios"
+
+
+
+
+
+
 var Catalog = [
     {
         _id: "abcdefgh",
@@ -52,16 +59,25 @@ var Catalog = [
 
 
 class DataService{
-    getCatalog(){
-        return Catalog;
+    async getCatalog(){
+
+    let resp = await axios.get("http://127.0.0.1:5000/api/catalog");
+    return resp.data;
+        //return Catalog;
+    }
+
+    async getCoupons(){
+        let resp = await axios.get("http://127.0.0.1:5000/api/couponCode");
+        return resp.data;
     }
 
     saveProduct(prod){
         console.log("Sending prod to server,,,,,,,NOT");
     }
 
-    saveCoupon(prod){
-        console.log("Sending Coupon discount");
+    async saveCoupon(code){
+        let resp = await axios.post("http://127.0.0.1:5000/api/couponCode", code);
+        return resp.data;
     }
 }
 

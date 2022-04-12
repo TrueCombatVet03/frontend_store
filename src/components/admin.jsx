@@ -1,6 +1,6 @@
 import "./admin.css"
 import Product from './product';
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import DataService from "../services/dataService";
 
 const Admin = () => {
@@ -34,11 +34,15 @@ const Admin = () => {
         setCoupon(copy);
     };
 
-    const saveCoupon = () =>{
+    const saveCoupon = async () => {
         console.log(coupon);
 
+        let fixed = {...coupon};
+        fixed.discount = parseInt(coupon.discount);
+
         let service = new DataService();
-        service.saveCoupon(coupon);
+        service.saveCoupon(fixed);
+        let resp = await service.saveCoupon(fixed);
 
         let copy = [...allCoupons];
         copy.push(coupon);
@@ -47,7 +51,18 @@ const Admin = () => {
         
 
         
-    }
+    };
+
+    const loadCoupons = async () => {
+        let service = new DataService();
+        let all = await service.getCoupons();
+        setAllCoupons(all);
+    };
+
+
+    useEffect(() =>{
+        loadCoupons();
+    }, []);
 
 
     return (
